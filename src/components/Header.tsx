@@ -77,8 +77,12 @@ const Header = () => {
               <a href="#services" className="text-sm text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Services</a>
               <a href="#portfolio" className="text-sm text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Portfolio</a>
               <a href="#contact" className="text-sm text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</a>
-              <Link to="/privacy" className="text-sm text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Privacy</Link>
-              <Link to="/terms" className="text-sm text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Terms</Link>
+              <div className='flex items-center gap-3'>
+                <Link to="/privacy" className="text-xs text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Privacy Policy</Link>
+                {''} | {''}
+                <Link to="/terms" className="text-xs text-foreground hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>Terms of service</Link>
+              </div>
+              
             </div>
           </nav>
         )}
