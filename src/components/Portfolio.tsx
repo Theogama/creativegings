@@ -32,13 +32,13 @@ const Portfolio = () => {
       liveUrl: "https://health-care-tan.vercel.app"
     },
     {
-      title: "Snapgram (Instagram Clone)",
-      category: "Social Media",
-      image: "images/Snapgram.png",
-      description: "Full-featured online store with payment gateway, inventory management, and admin dashboard.",
+      title: "Yoom (Zoom Clone)",
+      category: "Video call",
+      image: "images/zoom.png",
+      description: "Full-featured online zoom (clone) with creating new meeting, join meeting and scheduling.",
       tech: ["Authenticathion", "TypeScript", "Tailwindcss"],
-      repoUrl: "https://github.com/Theogama/snapgram",
-      liveUrl: "https://snapgram-chi.vercel.app"
+      repoUrl: "https://github.com/Theogama/zoom_clone",
+      liveUrl: "https://zoom-clone-sage.vercel.app"
     },
     {
       title: "Travel Agency",
@@ -53,10 +53,10 @@ const Portfolio = () => {
       title: "Pricewise ",
       category: "Custom Development",
       image: "images/pricewise.png",
-      description: "Custom booking system with class schedules, trainer profiles, and membership management.",
+      description: "Custom web application to check any sale on Amazon then it Bookmarks for you when the product gets on sale",
       tech: ["webscraping", "Tailwindcss", "NextJs"],
-      repoUrl: "https://github.com/yourusername/fitness-platform",
-      liveUrl: "https://fitness-sample.com"
+      repoUrl: "https://github.com/Theogama/pricewise",
+      liveUrl: "https://pricewise-seven.vercel.app"
     },
     {
       title: "3D Portfolio Landing",
