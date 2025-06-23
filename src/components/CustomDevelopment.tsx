@@ -32,7 +32,7 @@ const CustomDevelopment = () => (
 
     <p className="text-center text-muted-foreground mt-6 italic">
       Payment plans can be arranged for e-commerce and custom development.{' '}
-      <a to="/terms" className="text-primary hover:underline">Terms of Service apply</a>.
+      <a href="/terms" className="text-primary hover:underline">Terms of Service apply</a>.
     </p>
   </div>
 );
