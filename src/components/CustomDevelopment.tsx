@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const CustomDevelopment = () => (
   <div className="mt-16 backdrop-blur-md bg-background/60 border border-border/50 rounded-2xl p-8 shadow-lg animate-fade-in">
@@ -32,7 +33,7 @@ const CustomDevelopment = () => (
 
     <p className="text-center text-muted-foreground mt-6 italic">
       Payment plans can be arranged for e-commerce and custom development.{' '}
-      <a href="/terms" className="text-primary hover:underline">Terms of Service apply</a>.
+      <Link to="/terms" className="text-primary hover:underline">Terms of Service apply</Link>.
     </p>
   </div>
 );
