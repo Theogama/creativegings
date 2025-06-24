@@ -167,7 +167,7 @@ const Privacy = () => {
                 <div className="bg-muted p-6 rounded-lg">
                   <p className="text-foreground"><strong>CreativeGings Website Agency</strong></p>
                   <p className="text-muted-foreground">Email: privacy@creativegings.co.za</p>
-                  <p className="text-muted-foreground">Phone: +27 (0) 123 456 789</p>
+                  <p className="text-muted-foreground">Phone: +27 (0) 78 555 1702</p>
                   <p className="text-muted-foreground">Address: South Africa</p>
                 </div>
               </section>
